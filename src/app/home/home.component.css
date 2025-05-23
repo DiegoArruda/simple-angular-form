@@ -1,0 +1,13 @@
+.base-inputs {
+  display: flex;
+  align-items: center;
+}
+.name {
+  padding: 5px;
+  margin: 5px;
+}
+
+.age {
+  padding: 5px;
+  margin: 5px;
+}

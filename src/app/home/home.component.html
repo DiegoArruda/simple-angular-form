@@ -1,0 +1,26 @@
+<div class="base-inputs">
+<input class="name" type="text" [(ngModel)]="name">
+<input class="age" type="text" [(ngModel)]="age">
+</div>
+
+<div class="clear-button">
+  <button (click)="clearFields()" [disabled]="buttonState">Limpar Campos</button>
+</div>
+<div class="toggle-buttons">
+  <button (click)="toggleButton()">@if (buttonState) {Ativar botões}@else {Desativar botões}</button>
+</div>
+<div class="base-input-result">
+  <p>Nome: {{name}}</p>
+  <p>Idade: {{age}}</p>
+</div>
+
+<div class="on-off-button">
+  <button [disabled]="buttonState">
+  @if (buttonState) {Botão desativado}@else {Botão ativado}
+  </button>
+</div>
+
+<app-simple-form></app-simple-form>
+
+
+
