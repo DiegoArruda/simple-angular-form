@@ -1,5 +1,14 @@
 <div class="simple-form-inputs">
-  <input type="text">
-  <input type="text">
-  <input type="text">
+  <label for="name-input">Nome</label>
+  <input class="name-input" type="text" [(ngModel)]="nameInput" >
+  <label for="age-input">Idade</label>
+  <input class="age-input" type="text" [(ngModel)]="ageInput" >
+  <label for="city-input">Cidade</label>
+  <input class="city-input" type="text" [(ngModel)]="cityInput" >
+</div>
+
+<div class="simple-form-result">
+  <p>Nome: {{nameInput}}</p>
+  <p>Idade: {{ageInput}}</p>
+  <p>Cidade: {{cityInput}}</p>
 </div>

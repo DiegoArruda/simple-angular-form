@@ -1,5 +1,6 @@
 .base-inputs {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .name {
@@ -8,6 +9,38 @@
 }
 
 .age {
+  padding: 5px;
+  margin: 5px;
+}
+
+.clear-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.base-input-result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.on-off-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   margin: 5px;
 }

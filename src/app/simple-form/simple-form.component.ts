@@ -7,4 +7,8 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './simple-form.component.html',
   styleUrl: './simple-form.component.css',
 })
-export class SimpleFormComponent {}
+export class SimpleFormComponent {
+  nameInput: String = '';
+  ageInput: String = '';
+  cityInput: String = '';
+}

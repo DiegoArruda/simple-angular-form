@@ -1,0 +1,28 @@
+.simple-form-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.age-input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.city-input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.simple-form-result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
